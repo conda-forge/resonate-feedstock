@@ -1,5 +1,5 @@
 {% set name = "resonATe" %}
-{% set version = "0.3.2" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fda0a39c01c2ae989bcf859514826a5d9b1e4bcd793f55dabe13321822a13938
+  sha256: 4dc4a711506c03a738a3611d89894bf0edb01e9576ebfb65d84a7de60bad240e
 
 build:
   number: 0
