@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/resonate/resonate-{{ version }}.tar.gz
-  sha256: 0c450f912af44212bd1e5bbd107a475399e57f3ed52c93b0f8aedc109e9c49d7
+  sha256: 09edbafbd0c843c2e9c4cf8b14e45218e2fc2148f8545c9c8a1b42dcb24ca5ae
 
 build:
   number: 0
