@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: resonate
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/resonate/resonate-{{ version }}.tar.gz
-  sha256: 0c450f912af44212bd1e5bbd107a475399e57f3ed52c93b0f8aedc109e9c49d7
+  sha256: 699f6a343b5f5b90e5dc4e0a00cf71ce1b12e0e6d00bffc6f0a5c2ff1ac2d5ce
 
 build:
   number: 0
