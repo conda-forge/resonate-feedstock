@@ -114,8 +114,7 @@ In order to produce a uniquely identifiable distribution:
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
 
-Feedstock Maintainers
-=====================
 
 * [@alexetnunes](https://github.com/alexetnunes/)
+
 
