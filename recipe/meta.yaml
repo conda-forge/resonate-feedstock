@@ -1,4 +1,4 @@
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: resonate
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/resonATe/resonATe-{{ version }}.tar.gz
-  sha256: 3bb4be98aa24b95e70b09a06746507329716d7e09655673aba019f442c519b3b
+  sha256: 6fabb0919908abf69b4fcb5054413588db5ede8f53ad3bfbd909aa931587d382
 
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -48,7 +48,7 @@ about:
   license: GPL-2.0
   license_family: GPL
   license_file: LICENSE
-  summary: 'Acoustic telemetry analysis and processing toolkit in Python'
+  summary: Acoustic telemetry analysis and processing toolkit in Python
   description: |
     resonATe is the Ocean Tracking Network's acoustic telemetry
     analysis toolkit. It can be used to filter, compress, visualize
