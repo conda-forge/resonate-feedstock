@@ -5,9 +5,13 @@ Home: https://gitlab.oceantrack.org/otndc/resonate
 
 Package license: GPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/resonate-feedstock/blob/master/LICENSE.txt)
 
 Summary: Acoustic telemetry analysis and processing toolkit in Python
+
+Development: https://gitlab.oceantrack.org/otndc/resonate
+
+Documentation: http://resonate.readthedocs.io/
 
 resonATe is the Ocean Tracking Network's acoustic telemetry
 analysis toolkit. It can be used to filter, compress, visualize
@@ -112,9 +116,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
