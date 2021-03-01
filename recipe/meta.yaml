@@ -9,7 +9,7 @@ source:
   sha256: 6fabb0919908abf69b4fcb5054413588db5ede8f53ad3bfbd909aa931587d382
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -59,4 +59,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - SoftwareMonk
     - alexetnunes
