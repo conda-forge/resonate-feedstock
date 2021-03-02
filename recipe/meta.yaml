@@ -15,7 +15,7 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=2.7
     - pip
     - pandas
     - numpy
@@ -26,7 +26,7 @@ requirements:
     - plotly
     - nbconvert
   run:
-    - python
+    - python >=2.7
     - pandas
     - numpy
     - sphinx
@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://gitlab.oceantrack.org/otndc/resonate
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE
   summary: Acoustic telemetry analysis and processing toolkit in Python
